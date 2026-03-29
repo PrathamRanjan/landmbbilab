@@ -16,8 +16,7 @@ Forge helps students practice the assessments that eliminate up to 98% of candid
 
 ---
 
-## The Team
-
+## 1. Team
 
 | Name | Role |
 |---|---|
@@ -26,15 +25,29 @@ Forge helps students practice the assessments that eliminate up to 98% of candid
 | Alok Vernekar | Co-founder |
 | Aditya Anand Pramod | Co-founder |
 
+- **SEP Start Date:** August 2025
+- **Contact:** [operations@forgeprep.io](mailto:operations@forgeprep.io)
+
 ---
 
-## What We're Building
+## 2. What We're Building
 
 ### The Problem
-Pre-interview screening has become a black box. Up to **98% of candidates** are rejected before any human reviews their application — filtered out by automated video assessments, neuroscience-based games, and psychometric tests that most candidates have never even seen before.
+Pre-interview screening has become a black box. Up to **98% of candidates** are rejected before any human reviews their application — automatically filtered out by video assessments, neuroscience-based games, and psychometric tests that most candidates have never practised before.
 
 ### Our Solution
 **Forge** is a credit-based practice platform that lets job seekers rehearse the exact assessments used by top companies — at a fraction of the cost of any competitor. Users build real skills, track their progress across 6 cognitive dimensions, and walk into every assessment knowing exactly what to expect.
+
+### SEP Objectives
+- Launch a fully functional, paying-user platform for pre-interview assessment prep
+- Build and maintain question banks across every major assessment provider (SHL, AON, Cappfinity, Talent Q, HireVue, Pymetrics)
+- Grow to 1,000+ active users via NTU career events and organic channels
+- Achieve first revenue through credit-based pricing model
+- Establish Forge as the go-to prep tool for NTU students ahead of recruitment season
+
+---
+
+## 3. Product
 
 ### Key Features
 
@@ -50,53 +63,95 @@ Pre-interview screening has become a black box. Up to **98% of candidates** are 
 | **AI Feedback** | Instant, actionable feedback on every response |
 
 ### Pricing
-Credit-based — pay only for what you practice. No bundles, no subscriptions, no bloated packages.
+Credit-based — pay only for what you practise. No bundles, no subscriptions.
 
-- **Starter** — 5 credits / $2.99
-- **Popular** — 15 credits / $7.99
-- **Best Value** — 30 credits / $14.99
+| Pack | Credits | Price |
+|---|---|---|
+| Starter | 5 credits | $2.99 |
+| Popular | 15 credits | $7.99 |
+| Best Value | 30 credits | $14.99 |
 
-Up to 99% cheaper than competitors like Graduates First, JobTestPrep, and iPrep.
+Up to 99% cheaper than competitors like Graduates First, JobTestPrep, and iPrep. Credits never expire.
+
+### Previews
+
+**Landing Page**
+![Landing Page](./assets/hero-landing.png)
+![App in Action](./assets/hero-social-proof.png)
+
+
+**App in Action**
+![Practice Dashboard](./assets/hero-dashboard.png)
+
+
+### Live Links
+- Website: [forgeprep.io](https://www.forgeprep.io/)
 
 ---
 
-## Tech Stack
+## 4. Development Progress
 
-| Layer | Technology |
+What we have shipped since August 2025:
+
+- **Full auth system** — sign up, login, Google OAuth, onboarding flow
+- **Credit & payments system** — Stripe integration, credit packs, paywall enforcement across all test pages
+- **SHL suite** — numerical (12 interactive question types including pie charts, draggable graphs, stacked bars), verbal, inductive, deductive reasoning
+- **AON suite** — verbal reasoning, numerical reasoning, digit challenge, concentration, grid challenge, language skills, inductive logical
+- **Cappfinity suite** — numerical, critical thinking, situational judgement
+- **Korn Ferry Talent Q** — adaptive logical, verbal, numerical reasoning
+- **HireVue** — camera/mic video practice with AI-powered evaluation via GPT-4 and Whisper transcription
+- **Pymetrics** — neuroscience game simulations
+- **Skill tracking engine** — unified taxonomy mapping every question to 6 cognitive skill dimensions; personal radar chart updated after each session
+- **Analytics dashboard** — per-user performance tracking across all test types
+- **Daily challenge** — streak system with calendar view
+- **Practice by company** — company profiles with tagged question banks pulled from Supabase
+- **Recommendations engine** — surfaces weak areas and suggested next tests
+- **Test report system** — detailed post-test breakdowns with answer review
+- **Rate limiting & security** — API protection, payment vulnerability patched
+- **Quant Prep module** — brain teasers, mental math, probability, market sizing, statistics and logic puzzles sourced from Goldman, Jane Street, Citadel and more (coming soon)
+- **Deployed to production** — Vercel (frontend) + Google Cloud Run (backend)
+
+---
+
+## 5. Current Status & Traction
+
+- **Platform:** Live and fully functional at [forgeprep.io](https://www.forgeprep.io/)
+- **Waitlist:** 100+ signups from the CCDS Back-to-School Fair alone
+- **User Testing:** Ongoing with friends and target users to refine UX and content
+- **Revenue:** Pre-revenue — credit system built and ready, awaiting full launch
+
+---
+
+## 6. Finance & Budget
+
+| Item | Status |
 |---|---|
-| Frontend | Next.js 16, React 19, Tailwind CSS, Framer Motion |
-| Backend | Python Flask, OpenAI GPT-4, LangChain |
-| Database | Supabase (PostgreSQL) |
-| AI / RAG | Pinecone vector store, LangChain |
-| Payments | Stripe |
-| Deployment | Vercel (frontend), Google Cloud Run (backend) |
+| iLab SEP Grant | Received — pending marketing budget approval |
+| Marketing Budget | Submitted for approval (demos provided to iLab as requested) |
+| Angel Investment | None to date |
+| Revenue | Pre-revenue |
 
 ---
 
-## Traction
+## 7. Competitions & Events
 
-- **100+ waitlist signups** from the CCDS Back-to-School Fair alone
-- Sponsored the **NTU TechFest Hackathon** — team gave an opening speech as last year's winners
-- Live at **[forgeprep.io](https://www.forgeprep.io/)** with a fully functional practice platform
+| Event | Details |
+|---|---|
+| NTU TechFest Hackathon (2024) | **Winners** — invited back as sponsors and opening speakers in 2025 edition |
+| CCDS Back-to-School Fair | Set up booth, 100+ waitlist signups |
+| NTU Career Fairs (upcoming) | Seeking booth approval via iLab |
 
 ---
 
-## iLab SEP Progress Updates
+## 8. iLab SEP Progress Updates
 
 Per iLab SEP reporting requirements, we post a 3–5 minute YouTube update every 2 months.
 
 | Period | YouTube Update |
 |---|---|
-| December 2025 | [Watch](https://youtube.com/watch?v=T9rfPcIpWx0&feature=youtu.be) |
-| January 2026 | [Watch](https://youtu.be/We9TbS2Ld2g) |
-| March 2026 | _(coming soon)_ |
-
----
-
-## Contact
-
-- Email: [operations@forgeprep.io](mailto:operations@forgeprep.io)
-- Website: [forgeprep.io](https://www.forgeprep.io/)
+| December 2025 | [Watch](./progress/2025-12-progress.md) |
+| January 2026 | [Watch](./progress/2026-01-progress.md) |
+| March 2026 | [Watch](./progress/2026-03-progress.md) |
 
 ---
 
