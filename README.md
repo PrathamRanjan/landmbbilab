@@ -111,6 +111,19 @@ What we have shipped since August 2025:
 - **Quant Prep module** — brain teasers, mental math, probability, market sizing, statistics and logic puzzles sourced from Goldman, Jane Street, Citadel and more (coming soon)
 - **Deployed to production** — Vercel (frontend) + Google Cloud Run (backend)
 
+### April – May 2026
+
+- **Landing page demo** — replaced feature sections with a live try-before-you-buy demo; visitors can attempt real SHL-style numerical and verbal questions directly on the homepage before signing up
+- **SEO overhaul** — metadata, canonical URLs, Twitter cards, sitemap, robots file, and `llms.txt` across every page to drive organic traffic
+- **PostHog analytics** — product analytics integrated across the platform tracking signups, purchases, and key user actions
+- **Free diagnostic assessment** — 30-question free diagnostic (10 numerical, 10 verbal, 10 logical) with full skill breakdown, score history, and personalised recommendations; no credits required
+- **Learn section** — full content library at `/learn` covering numerical, verbal, logical, HireVue, Pymetrics, test strategy, time management and more; SEO-optimised
+- **HireVue polished answer** — after completing a video question, users now receive an AI-rewritten version of their response showing how they could have said it better
+- **Multi-country pricing** — pricing dynamically adjusts based on the user's country via Stripe
+- **About page & social** — founder story, Numerical Monday and Verbal Wednesday weekly content series posted across Instagram, TikTok, and LinkedIn
+- **B2B institutional demo** — analytics dashboard demo built for universities and career centres showing usage, retention, and skill progression across a user cohort
+- **SHL new question types** — table classification component added; line graph, pie chart, and stacked bar chart fixes across numerical interactive tests
+
 ---
 
 ## 5. Current Status & Traction
@@ -152,6 +165,7 @@ Per iLab SEP reporting requirements, we post a 3–5 minute YouTube update every
 | December 2025 | [Watch](./progress/2025-12-progress.md) |
 | January 2026 | [Watch](./progress/2026-01-progress.md) |
 | March 2026 | [Watch](./progress/2026-03-progress.md) |
+| May 2026 | [Watch](./progress/2026-05-progress.md) |
 
 ---
 
