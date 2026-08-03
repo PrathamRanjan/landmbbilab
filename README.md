@@ -111,6 +111,25 @@ What we have shipped since August 2025:
 - **Quant Prep module** — brain teasers, mental math, probability, market sizing, statistics and logic puzzles sourced from Goldman, Jane Street, Citadel and more (coming soon)
 - **Deployed to production** — Vercel (frontend) + Google Cloud Run (backend)
 
+### June – July 2026
+
+- **Pulsifi test suite** — full Pulsifi psychometric and cognitive test modules across logical, numerical, and verbal reasoning; question bank seeded to Supabase
+- **CCAT** — Criteria Cognitive Aptitude Test implemented with all question types and grading
+- **Resume reviewer** — AI-powered CV review tool; local-first privacy, in-browser PDF compile, inline review UI, DOCX export; integrated with the paid credit system
+- **HireVue interview coaching** — AI coaching layer on top of video practice; rubric-scored evaluations with timestamped delivery metrics, wired into the live HireVue flow
+- **AON expansion** — Switch Challenge free game, Inductive IX (Scales IX) practice tests, CLX (Inductive Reasoning) and Motion Challenge minigames, Digit Challenge improvements (adaptivity, difficulty scoring, bracketed levels)
+- **Free-first conversion overhaul** — AON games now permanently free; earn-credit loop added; exit-intent modal for logged-out users; pricing and naming revamp *(shipping soon)*
+- **Homepage hero redesign** — replaced static stat cards with floating live test-component tiles
+- **Free SHL scratch template** — `/template` landing page with live walkthrough video for SHL numerical practice
+- **HireVue + transcription API migration** — `/api/transcribe` and `/api/evaluate` moved from Google Cloud Run to Next.js API routes, reducing infrastructure complexity
+- **Quant chatbot** — AI-powered quantitative reasoning assistant for brain teasers and mental math *(shipping soon)*
+- **Employer assessment guides** — 8 employer-specific preparation guides plus cross-provider comparison articles
+- **SHL learn hub** — guides for SHL verbal, numerical, and deductive interactive tests; SEO/GEO optimised with E-E-A-T author attribution
+- **Careers page** — `/join` hiring page with role listings, Supabase-backed applications, and rate-limited API
+- **PostHog full-funnel analytics** — event tracking wired across every step from landing page to purchase
+- **Onboarding & dashboard polish** — consent-only onboarding flow, credits checklist, faster dashboard load, cost columns in test list
+- **Video testimonial carousel** — social proof section added to the landing page *(shipping soon)*
+
 ### April – May 2026
 
 - **Landing page demo** — replaced feature sections with a live try-before-you-buy demo; visitors can attempt real SHL-style numerical and verbal questions directly on the homepage before signing up
@@ -166,6 +185,7 @@ Per iLab SEP reporting requirements, we post a 3–5 minute YouTube update every
 | January 2026 | [Watch](./progress/2026-01-progress.md) |
 | March 2026 | [Watch](./progress/2026-03-progress.md) |
 | May 2026 | [Watch](./progress/2026-05-progress.md) |
+| July 2026 | [Watch](./progress/2026-07-progress.md) |
 
 ---
 
