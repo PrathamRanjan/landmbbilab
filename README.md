@@ -111,6 +111,19 @@ What we have shipped since August 2025:
 - **Quant Prep module** — brain teasers, mental math, probability, market sizing, statistics and logic puzzles sourced from Goldman, Jane Street, Citadel and more (coming soon)
 - **Deployed to production** — Vercel (frontend) + Google Cloud Run (backend)
 
+### August – October 2026
+
+- **Unified skills engine** — rebuilt skill tracking on a single taxonomy: every question, across every provider, maps to one primary skill grouped under 8 scored domains (numerical, verbal, logical, critical thinking, attention & memory, mechanical, situational judgement, quant) plus work-style and interview profiles. Accuracy is computed per skill, with low-sample results flagged as early estimates rather than penalised
+- **Smarter recommendations** — a single recommender now scores every test and drill against your skill profile: it weights skills you get wrong or have never tried, boosts the providers you're preparing for, drops tests you've finished, and never repeats a test type
+- **Resume reviewer, rebuilt** — now produces one written report that checks every statement against your actual resume. It flags invented numbers or contacts, dates that contradict each other, and claims the resume doesn't support — so the AI can't quietly make things up. Adds layout-aware PDF extraction and Word export; validated against 15 real resumes
+- **Credit codes** — redeemable cohort and partner codes (e.g. for NTU events and giveaways), granted atomically in a single database transaction and rate-limited against guessing; free-credits card added to the practice hub
+- **Major reliability & QA pass** — multi-phase re-QA across grading, scoring, phone layout, reports and accessibility; reload safety so refreshing mid-test no longer loses progress (attempt and question drafts, runner checkpoints); paid attempts charged exactly once; question bank cleaned with weak items repaired or retired
+- **Automated test suite in CI** — an "assessment repair contracts" GitHub workflow runs grading, skills-engine, resume-review and reload-safety tests on every change, plus full type-checking, so fixes can't silently regress
+- **International-graduate employer report** — new Learn report on where international graduates from Singapore universities actually get hired (aggregate, company-level data only — no individual records)
+- **Auth & onboarding polish** — sign-in returns you to the page you came from (including through Google OAuth), email-verification popup with spam-folder warning, first-visit greeting, password reset, and privacy & terms pages
+- **Growth & SEO** — ad-blocker-proof server-side analytics (PostHog) with richer funnel tracking, retitled SHL hub and low-CTR pages, completed `llms.txt`, Learn guide search, and a decluttered landing page
+- **Security hardening** — secrets removed from the repository and kept out of version control
+
 ### June – July 2026
 
 - **Pulsifi test suite** — full Pulsifi psychometric and cognitive test modules across logical, numerical, and verbal reasoning; question bank seeded to Supabase
@@ -148,7 +161,7 @@ What we have shipped since August 2025:
 ## 5. Current Status & Traction
 
 - **Platform:** Live and fully functional at [forgeprep.io](https://www.forgeprep.io/)
-- **Waitlist:** 100+ signups from the CCDS Back-to-School Fair alone
+- **Web traffic:** 2,102 organic Google Search clicks over the quarter, with daily clicks up roughly 5x (single digits in July to ~40–50/day by October) as our SEO and content efforts compound
 - **User Testing:** Ongoing with friends and target users to refine UX and content
 - **Revenue:** Pre-revenue — credit system built and ready, awaiting full launch
 
@@ -186,6 +199,7 @@ Per iLab SEP reporting requirements, we post a 3–5 minute YouTube update every
 | March 2026 | [Watch](./progress/2026-03-progress.md) |
 | May 2026 | [Watch](./progress/2026-05-progress.md) |
 | July 2026 | [Watch](./progress/2026-07-progress.md) |
+| September 2026 | [Watch](./progress/2026-09-progress.md) |
 
 ---
 
