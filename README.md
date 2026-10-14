@@ -200,6 +200,7 @@ Per iLab SEP reporting requirements, we post a 3–5 minute YouTube update every
 | May 2026 | [Watch](./progress/2026-05-progress.md) |
 | July 2026 | [Watch](./progress/2026-07-progress.md) |
 | September 2026 | [Watch](./progress/2026-09-progress.md) |
+| October 2026 | [Watch](./progress/2026-10-progress.md) |
 
 ---
 
